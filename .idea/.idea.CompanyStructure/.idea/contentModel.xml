@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="BLL.Abstract" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.Abstract.csproj" t="IncludeRecursive" />
+        <e p="IEmployeeComponent.cs" t="Include" />
+        <e p="IStructureStrategy.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLL.Abstract.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Visitor" t="Include">
+          <e p="IEmployeeVisitor.cs" t="Include" />
+          <e p="IVisitable.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BLL.Implementation" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.Implementation.csproj" t="IncludeRecursive" />
+        <e p="Composite" t="Include">
+          <e p="EmployeeComponent.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLL.Implementation.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Services" t="Include">
+          <e p="DirectorService.cs" t="Include" />
+          <e p="ManagerService.cs" t="Include" />
+          <e p="WorkerService.cs" t="Include" />
+        </e>
+        <e p="Strategy" t="Include">
+          <e p="PositionHeightStructureStrategy.cs" t="Include" />
+          <e p="StraightStructureStrategy.cs" t="Include" />
+        </e>
+        <e p="Visitors" t="Include">
+          <e p="EmployeeSalaryVisitor.cs" t="Include" />
+          <e p="EmployeeSubordinatesVisitor.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BLL.Models" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.Models.csproj" t="IncludeRecursive" />
+        <e p="DirectorModel.cs" t="Include" />
+        <e p="EmployeeModel.cs" t="Include" />
+        <e p="ManagerModel.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLL.Models.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="WorkerModel.cs" t="Include" />
+      </e>
+      <e p="CompanyStructure.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_CompanyStructure.-1459782714.00" t="ExcludeRecursive" />
+  </component>
+</project>

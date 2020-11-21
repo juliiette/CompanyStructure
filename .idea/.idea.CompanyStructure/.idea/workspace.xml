@@ -1,0 +1,703 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ecbf22a-7570-4fa0-99c5-ded745b41fd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/contentModel.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/indexLayout.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/riderModule.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/BLL.Abstract.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/IEmployeeComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/IStructureStrategy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSalaryVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSubordinatesVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/Visitor/IVisitable.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/BLL.Abstract.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/BLL.Abstract.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/BLL.Abstract.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.0/BLL.Abstract.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.0/BLL.Abstract.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.0/BLL.Abstract.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Abstract/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/BLL.Implementation.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Composite/EmployeeComponent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Services/WorkerService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSalaryVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSubordinatesVisitor.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/BLL.Implementation.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/BLL.Implementation.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/BLL.Implementation.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.0/BLL.Implementation.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.0/BLL.Implementation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.0/BLL.Implementation.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.0/BLL.Implementation.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Implementation/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/BLL.Models.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/DirectorModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/ManagerModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/WorkerModel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/BLL.Models.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/BLL.Models.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/BLL.Models.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.0/BLL.Models.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.0/BLL.Models.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.0/BLL.Models.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.csprojAssemblyReference.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BLL.Models/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompanyStructure.sln" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/Data.Abstract.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Data.Abstract.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Data.Abstract.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Data.Abstract.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Debug/netcoreapp3.0/Data.Abstract.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Debug/netcoreapp3.0/Data.Abstract.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/Debug/netcoreapp3.0/Data.Abstract.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Abstract/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/BaseEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/Data.Entity.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/DirectorEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/EmployeeEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/ManagerEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/WorkerEntity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Data.Entity.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Data.Entity.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Data.Entity.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Debug/netcoreapp3.0/Data.Entity.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Debug/netcoreapp3.0/Data.Entity.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/Debug/netcoreapp3.0/Data.Entity.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Entity/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/Class1.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/Data.Implementation.csproj" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Data.Implementation.csproj.nuget.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Data.Implementation.csproj.nuget.g.props" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Data.Implementation.csproj.nuget.g.targets" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Debug/netcoreapp3.0/Data.Implementation.AssemblyInfo.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Debug/netcoreapp3.0/Data.Implementation.AssemblyInfoInputs.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/Debug/netcoreapp3.0/Data.Implementation.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/project.assets.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data.Implementation/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/BuilderException.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/obj/Debug/netcoreapp3.1/BuilderConsole.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/obj/Debug/netcoreapp3.1/BuilderConsole.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/BuilderService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/BuilderService.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/bin/Debug/netcoreapp3.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/bin/Debug/netcoreapp3.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/bin/Debug/netcoreapp3.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/bin/Debug/netcoreapp3.1/Model.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/obj/Debug/netcoreapp3.1/Model.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/obj/Debug/netcoreapp3.1/Model.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/obj/Debug/netcoreapp3.1/Model.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/obj/Debug/netcoreapp3.1/Model.pdb" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/WorkerService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+              <folding>
+                <marker date="1605969843003" expanded="true" signature="66:263" ph="{...}" />
+                <marker date="1605969843003" expanded="true" signature="112:261" ph="{...}" />
+                <marker date="1605969843003" expanded="true" signature="179:255" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Entity/DirectorEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Entity/ManagerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Entity/WorkerEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Entity/EmployeeEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Entity/BaseEntity.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSubordinatesVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSubordinatesVisitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSalaryVisitor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Implementation/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Composite/EmployeeComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSalaryVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Models/DirectorModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Models/ManagerModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Models/WorkerModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Data.Abstract/Class1.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/IStructureStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeVisitor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/IEmployeeComponent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IVisitable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Services/WorkerService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Model/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Class1.cs" />
+        <option value="$PROJECT_DIR$/Data.Abstract/Class1.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/Class1.cs" />
+        <option value="$PROJECT_DIR$/Data.Implementation/Class1.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/Employee.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/WorkerModel.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/Manager.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/ManagerModel.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/DirectorModel.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/IEmployeeVisitor.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/BaseEntity.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/EmployeeEntity.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/WorkerEntity.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/DirectorEntity.cs" />
+        <option value="$PROJECT_DIR$/Data.Entity/ManagerEntity.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/IEmployee.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/Interfaces/IEmployee.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeMaxSalaryVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSubordinatesVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeBiggerSalary.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeBiggerSalaryVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeMaxSalaryVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSalaryVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Visitors/IVisitable.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Visitor/IVisitable.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSalaryVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSubordinatesVisitor.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/IStructureStrategy.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/IEmployeeComponent.cs" />
+        <option value="$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Composite/EmployeeComponent.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Services/WorkerService.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/indexLayout.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="FileSystemExplorer" />
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Abstract" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Abstract" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visitor" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Services" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Strategy" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Visitors" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Models" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ecbf22a-7570-4fa0-99c5-ded745b41fd5" name="Default Changelist" comment="" />
+      <created>1603830362399</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603830362399</updated>
+      <workItem from="1603830365002" duration="593000" />
+      <workItem from="1605561508026" duration="2860000" />
+      <workItem from="1605870881990" duration="5280000" />
+      <workItem from="1605965554744" duration="3814000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="12547000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="NuGet" order="7" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Unit Tests" order="11" />
+      <window_info anchor="bottom" id="Terminal" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/BLL.Models/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Model/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Data.Abstract/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1605626172964" expanded="true" signature="38:78" ph="{...}" />
+            <marker date="1605626172964" expanded="true" signature="64:76" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.Entity/Class1.cs" />
+    <entry file="file://$PROJECT_DIR$/Data.Implementation/Class1.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <marker date="1605626199525" expanded="true" signature="44:84" ph="{...}" />
+            <marker date="1605626199525" expanded="true" signature="70:82" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/Employee.cs" />
+    <entry file="file://$PROJECT_DIR$/Data.Entity/BaseEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="1" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <marker date="1605627894391" expanded="true" signature="21:101" ph="{...}" />
+            <marker date="1605627894391" expanded="true" signature="51:99" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.Entity/EmployeeEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="39" lean-forward="true" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+          <folding>
+            <marker date="1605627985537" expanded="true" signature="21:226" ph="{...}" />
+            <marker date="1605627985537" expanded="true" signature="68:224" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/WorkerModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="6" selection-end-column="46" />
+          <folding>
+            <marker date="1605626878750" expanded="true" signature="20:190" ph="{...}" />
+            <marker date="1605626878750" expanded="true" signature="67:188" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.Entity/WorkerEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" lean-forward="true" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1605628057298" expanded="true" signature="21:194" ph="{...}" />
+            <marker date="1605628057298" expanded="true" signature="70:192" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.Entity/ManagerEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="1" lean-forward="true" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+          <folding>
+            <marker date="1605628148669" expanded="true" signature="56:285" ph="{...}" />
+            <marker date="1605628148669" expanded="true" signature="89:283" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data.Entity/DirectorEntity.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" lean-forward="true" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <marker date="1605628127418" expanded="true" signature="56:166" ph="{...}" />
+            <marker date="1605628127418" expanded="true" signature="90:164" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/Interfaces/IEmployee.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeBiggerSalaryVisitor.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Visitors/IVisitable.cs" />
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IVisitable.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="54" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+          <folding>
+            <marker date="1605892486586" expanded="true" signature="30:133" ph="{...}" />
+            <marker date="1605892486586" expanded="true" signature="64:131" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSalaryVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <marker date="1605893187953" expanded="true" signature="6:79" ph="..." />
+            <marker date="1605893187953" expanded="true" signature="118:723" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="178:721" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="230:263" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="312:345" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="396:429" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="486:563" ph="{...}" />
+            <marker date="1605893187953" expanded="true" signature="639:715" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Visitors/EmployeeSubordinatesVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1605893206835" expanded="true" signature="6:99" ph="..." />
+            <marker date="1605893206835" expanded="true" signature="138:615" ph="{...}" />
+            <marker date="1605893206835" expanded="true" signature="204:613" ph="{...}" />
+            <marker date="1605893206835" expanded="true" signature="256:289" ph="{...}" />
+            <marker date="1605893206835" expanded="true" signature="338:371" ph="{...}" />
+            <marker date="1605893206835" expanded="true" signature="422:455" ph="{...}" />
+            <marker date="1605893206835" expanded="true" signature="531:607" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSubordinatesVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="53" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="53" />
+          <folding>
+            <marker date="1605887034258" expanded="true" signature="6:80" ph="..." />
+            <marker date="1605887034258" expanded="true" signature="112:262" ph="{...}" />
+            <marker date="1605887034258" expanded="true" signature="183:260" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
+          <folding>
+            <marker date="1605886872718" expanded="true" signature="49:239" ph="{...}" />
+            <marker date="1605886872718" expanded="true" signature="89:237" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Visitor/IEmployeeSalaryVisitor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+          <folding>
+            <marker date="1605887488022" expanded="true" signature="49:205" ph="{...}" />
+            <marker date="1605887488022" expanded="true" signature="114:203" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/IStructureStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="45" lean-forward="true" selection-start-line="7" selection-end-line="8" />
+          <folding>
+            <marker date="1605893321344" expanded="true" signature="6:51" ph="..." />
+            <marker date="1605893321344" expanded="true" signature="75:177" ph="{...}" />
+            <marker date="1605893321344" expanded="true" signature="117:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1605895460110" expanded="true" signature="6:71" ph="..." />
+            <marker date="1605895460110" expanded="true" signature="110:318" ph="{...}" />
+            <marker date="1605895460110" expanded="true" signature="176:316" ph="{...}" />
+            <marker date="1605895460110" expanded="true" signature="234:310" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1605895474680" expanded="true" signature="6:71" ph="..." />
+            <marker date="1605895474680" expanded="true" signature="110:324" ph="{...}" />
+            <marker date="1605895474680" expanded="true" signature="182:322" ph="{...}" />
+            <marker date="1605895474680" expanded="true" signature="240:316" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/IEmployeeComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="1" lean-forward="true" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <marker date="1605896208536" expanded="true" signature="6:31" ph="..." />
+            <marker date="1605896208536" expanded="true" signature="55:341" ph="{...}" />
+            <marker date="1605896208536" expanded="true" signature="97:339" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Composite/EmployeeComponent.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
+          <folding>
+            <marker date="1605896167672" expanded="true" signature="6:37" ph="..." />
+            <marker date="1605896167672" expanded="true" signature="77:574" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="135:572" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="213:246" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="321:354" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="407:440" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="470:503" ph="{...}" />
+            <marker date="1605896167672" expanded="true" signature="533:566" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/EmployeeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1605965603136" expanded="true" signature="21:257" ph="{...}" />
+            <marker date="1605965603136" expanded="true" signature="54:255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/DirectorModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="1" selection-start-line="8" selection-start-column="1" selection-end-line="8" selection-end-column="1" />
+          <folding>
+            <marker date="1605627105156" expanded="true" signature="55:179" ph="{...}" />
+            <marker date="1605627105156" expanded="true" signature="104:177" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Models/ManagerModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <marker date="1605627061770" expanded="true" signature="55:299" ph="{...}" />
+            <marker date="1605627061770" expanded="true" signature="103:297" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="47" column="1" lean-forward="true" selection-start-line="47" selection-start-column="1" selection-end-line="47" selection-end-column="1" />
+          <folding>
+            <marker date="1605969744051" expanded="true" signature="6:65" ph="..." />
+            <marker date="1605969744051" expanded="true" signature="104:1435" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="138:1433" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="228:534" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="622:938" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="812:890" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="1031:1427" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="1108:1417" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="1184:1287" ph="{...}" />
+            <marker date="1605969744051" expanded="true" signature="1308:1403" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="47" column="9" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="47" selection-end-column="9" />
+          <folding>
+            <marker date="1605969401421" expanded="true" signature="6:65" ph="..." />
+            <marker date="1605969401421" expanded="true" signature="104:1443" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="139:1441" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="222:535" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="642:961" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="835:913" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="1053:1435" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="1127:1425" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="1195:1295" ph="{...}" />
+            <marker date="1605969401421" expanded="true" signature="1316:1411" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/WorkerService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1605969843003" expanded="true" signature="66:263" ph="{...}" />
+            <marker date="1605969843003" expanded="true" signature="112:261" ph="{...}" />
+            <marker date="1605969843003" expanded="true" signature="179:255" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

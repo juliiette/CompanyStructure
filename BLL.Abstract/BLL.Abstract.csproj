@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\BLL.Models\BLL.Models.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="Visitor\IEmployeeSalaryVisitor.cs" />
+      <Compile Remove="Visitor\IEmployeeSubordinatesVisitor.cs" />
+    </ItemGroup>
+
+</Project>

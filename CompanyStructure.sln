@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Models", "BLL.Models\BLL.Models.csproj", "{F12EDCC1-3ECC-4FFA-BA6C-9C4E6A8D26DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Abstract", "BLL.Abstract\BLL.Abstract.csproj", "{8175673B-0B66-481C-9BD3-1D083FBC93D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Implementation", "BLL.Implementation\BLL.Implementation.csproj", "{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12EDCC1-3ECC-4FFA-BA6C-9C4E6A8D26DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12EDCC1-3ECC-4FFA-BA6C-9C4E6A8D26DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12EDCC1-3ECC-4FFA-BA6C-9C4E6A8D26DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12EDCC1-3ECC-4FFA-BA6C-9C4E6A8D26DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8175673B-0B66-481C-9BD3-1D083FBC93D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8175673B-0B66-481C-9BD3-1D083FBC93D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8175673B-0B66-481C-9BD3-1D083FBC93D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8175673B-0B66-481C-9BD3-1D083FBC93D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
