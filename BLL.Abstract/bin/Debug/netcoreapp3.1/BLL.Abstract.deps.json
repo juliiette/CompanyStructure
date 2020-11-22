@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "BLL.Abstract/1.0.0": {
+        "dependencies": {
+          "BLL.Models": "1.0.0"
+        },
+        "runtime": {
+          "BLL.Abstract.dll": {}
+        }
+      },
+      "BLL.Models/1.0.0": {
+        "runtime": {
+          "BLL.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BLL.Abstract/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BLL.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

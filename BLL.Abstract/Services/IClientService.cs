@@ -9,7 +9,7 @@ namespace BLL.Abstract.Services
 
         List<EmployeeModel> FindEmployeesWithBiggerSalary(int givenSalary);
 
-        List<EmployeeModel> FindSubordinates(string name);
+        List<WorkerModel> FindSubordinates(string name);
 
         List<EmployeeModel> FindByPosition(string position);
 

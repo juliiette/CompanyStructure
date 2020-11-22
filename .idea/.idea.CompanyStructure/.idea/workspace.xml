@@ -2,40 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ecbf22a-7570-4fa0-99c5-ded745b41fd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/View/Program.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/View.csproj" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/app.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.0/View.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.0/View.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.0/View.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.0/View.csprojAssemblyReference.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.1/View.AssemblyInfo.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.1/View.AssemblyInfoInputs.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/Debug/netcoreapp3.1/View.assets.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/View.csproj.nuget.cache" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/View.csproj.nuget.g.props" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/View.csproj.nuget.g.targets" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/project.assets.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/View/obj/project.packagespec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Company.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/View/Company.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/Model/BuilderException.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CompanyStructure/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Abstract/Services/IDirectorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Abstract/Services/IDirectorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Abstract/Services/IManagerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Abstract/Services/IManagerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/BLL.Implementation.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/BLL.Implementation.csproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/obj/BLL.Implementation.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/obj/BLL.Implementation.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Implementation/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Implementation/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Models/ManagerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Models/ManagerModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BLL.Models/WorkerModel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BLL.Models/WorkerModel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompanyStructure.sln" beforeDir="false" afterPath="$PROJECT_DIR$/CompanyStructure.sln" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/View/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/View/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/.idea/.idea.BuilderController/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../lab1_stroitel/BuilderController/BuilderConsole/Program.cs" afterDir="false" />
@@ -57,13 +29,28 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/View/Program.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="617">
+              <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
               <folding>
-                <marker date="1606072875518" expanded="true" signature="6:129" ph="..." />
-                <marker date="1606072875518" expanded="true" signature="145:417" ph="{...}" />
-                <marker date="1606072875518" expanded="true" signature="165:415" ph="{...}" />
-                <marker date="1606072875518" expanded="true" signature="211:409" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="6:164" ph="..." />
+                <marker date="1606076933539" expanded="true" signature="180:4138" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="200:4136" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="246:4130" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="690:4107" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="793:1701" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="1280:1683" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="1349:1483" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="1530:1661" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="1761:2182" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="2071:2164" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="2226:2652" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="2541:2634" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="2696:2897" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="2944:3417" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="3273:3399" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="3465:3875" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="3759:3857" ph="{...}" />
+                <marker date="1606076933539" expanded="true" signature="3924:4092" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -72,30 +59,28 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+            <state relative-caret-position="346">
+              <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
               <folding>
-                <marker date="1606072266200" expanded="true" signature="6:135" ph="..." />
-                <marker date="1606072266200" expanded="true" signature="174:3594" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="224:3592" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="446:959" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="699:911" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="763:897" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1042:1492" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1275:1443" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1340:1429" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1558:2091" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1768:2042" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1825:2028" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="1910:2010" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="2159:2629" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="2392:2580" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="2477:2566" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="2712:2984" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="2853:2935" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="3066:3309" ph="{...}" />
-                <marker date="1606072266200" expanded="true" signature="3320:3445" ph="/* public static ClientService LoadCompany(string path) ... */" />
-                <marker date="1606072266200" expanded="true" signature="3455:3586" ph="/* public void Save(string path, ClientService clientService) ... */" />
+                <marker date="1606076933536" expanded="true" signature="6:135" ph="..." />
+                <marker date="1606076933536" expanded="true" signature="174:3361" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="224:3359" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="447:505" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="571:1084" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="824:1036" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="888:1022" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1167:1617" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1400:1568" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1465:1554" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1681:2126" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1887:2077" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="1964:2063" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="2194:2664" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="2427:2615" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="2512:2601" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="2747:3019" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="2888:2970" ph="{...}" />
+                <marker date="1606076933536" expanded="true" signature="3101:3344" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,15 +89,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+            <state relative-caret-position="15">
+              <caret line="1" selection-start-line="1" selection-end-line="1" />
               <folding>
-                <marker date="1606072875515" expanded="true" signature="6:128" ph="..." />
-                <marker date="1606072875515" expanded="true" signature="192:924" ph="{...}" />
-                <marker date="1606072875515" expanded="true" signature="222:922" ph="{...}" />
-                <marker date="1606072875515" expanded="true" signature="289:631" ph="{...}" />
-                <marker date="1606072875515" expanded="true" signature="395:447" ph="{...}" />
-                <marker date="1606072875515" expanded="true" signature="694:915" ph="{...}" />
+                <marker date="1606072980255" expanded="true" signature="6:58" ph="..." />
+                <marker date="1606072980255" expanded="true" signature="97:829" ph="{...}" />
+                <marker date="1606072980255" expanded="true" signature="127:827" ph="{...}" />
+                <marker date="1606072980255" expanded="true" signature="194:536" ph="{...}" />
+                <marker date="1606072980255" expanded="true" signature="300:352" ph="{...}" />
+                <marker date="1606072980255" expanded="true" signature="599:820" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -200,15 +185,15 @@
         <option value="$PROJECT_DIR$/View/app.config" />
         <option value="$PROJECT_DIR$/BLL.Abstract/Services/IManagerService.cs" />
         <option value="$PROJECT_DIR$/BLL.Models/EmployeeModel.cs" />
-        <option value="$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs" />
         <option value="$PROJECT_DIR$/BLL.Abstract/Services/IDirectorService.cs" />
         <option value="$PROJECT_DIR$/BLL.Models/ManagerModel.cs" />
         <option value="$PROJECT_DIR$/BLL.Models/WorkerModel.cs" />
         <option value="$PROJECT_DIR$/BLL.Implementation/Services/ManagerService.cs" />
         <option value="$PROJECT_DIR$/BLL.Implementation/Services/DirectorService.cs" />
         <option value="$PROJECT_DIR$/View/Company.txt" />
-        <option value="$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs" />
         <option value="$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs" />
+        <option value="$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs" />
+        <option value="$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs" />
         <option value="$PROJECT_DIR$/View/Program.cs" />
       </list>
     </option>
@@ -265,6 +250,12 @@
             <path>
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BLL.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Strategy" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="CompanyStructure" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BLL.Models" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -305,7 +296,7 @@
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/View" />
       <option name="PASS_PARENT_ENVS" value="1" />
-      <option name="USE_EXTERNAL_CONSOLE" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
       <option name="RUNTIME_ARGUMENTS" value="" />
       <option name="PROJECT_PATH" value="$PROJECT_DIR$/View/View.csproj" />
@@ -333,7 +324,7 @@
       <workItem from="1605561508026" duration="2860000" />
       <workItem from="1605870881990" duration="5280000" />
       <workItem from="1605965554744" duration="4108000" />
-      <workItem from="1606053315911" duration="17617000" />
+      <workItem from="1606053315911" duration="21591000" />
     </task>
     <task id="LOCAL-00001" summary="structure + services">
       <created>1605970232158</created>
@@ -349,11 +340,18 @@
       <option name="project" value="LOCAL" />
       <updated>1606062618236</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="serialization">
+      <created>1606073030498</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606073030498</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30458000" />
+    <option name="totallyTimeSpent" value="34432000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,13 +366,13 @@
     <frame x="0" y="23" width="1440" height="877" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Build" weight="0.3299363" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3299363" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3299363" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -402,7 +400,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="structure + services" />
     <MESSAGE value="all given tasks, but without console" />
-    <option name="LAST_COMMIT_MESSAGE" value="all given tasks, but without console" />
+    <MESSAGE value="serialization" />
+    <option name="LAST_COMMIT_MESSAGE" value="serialization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -619,37 +618,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
-          <folding>
-            <marker date="1606060109331" expanded="true" signature="6:71" ph="..." />
-            <marker date="1606060109331" expanded="true" signature="110:939" ph="{...}" />
-            <marker date="1606060109331" expanded="true" signature="182:937" ph="{...}" />
-            <marker date="1606060109331" expanded="true" signature="267:931" ph="{...}" />
-            <marker date="1606060109331" expanded="true" signature="536:750" ph="{...}" />
-            <marker date="1606060109331" expanded="true" signature="659:736" ph="{...}" />
-            <marker date="1606060109331" expanded="true" signature="795:870" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <marker date="1606060233105" expanded="true" signature="6:71" ph="..." />
-            <marker date="1606060233105" expanded="true" signature="110:758" ph="{...}" />
-            <marker date="1606060233105" expanded="true" signature="176:756" ph="{...}" />
-            <marker date="1606060233105" expanded="true" signature="261:750" ph="{...}" />
-            <marker date="1606060233105" expanded="true" signature="477:701" ph="{...}" />
-            <marker date="1606060233105" expanded="true" signature="600:687" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BLL.Abstract/ClientService.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -682,18 +650,6 @@
             <marker date="1606064781717" expanded="true" signature="6:51" ph="..." />
             <marker date="1606064781717" expanded="true" signature="84:374" ph="{...}" />
             <marker date="1606064781717" expanded="true" signature="123:372" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <marker date="1606065025908" expanded="false" signature="6:51" ph="..." />
-            <marker date="1606065025908" expanded="true" signature="84:539" ph="{...}" />
-            <marker date="1606065025908" expanded="true" signature="122:537" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -791,6 +747,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/View/Company.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/PositionHeightStructureStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="14" column="16" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="16" />
+          <folding>
+            <marker date="1606060109331" expanded="true" signature="6:71" ph="..." />
+            <marker date="1606060109331" expanded="true" signature="110:939" ph="{...}" />
+            <marker date="1606060109331" expanded="true" signature="182:937" ph="{...}" />
+            <marker date="1606060109331" expanded="true" signature="267:931" ph="{...}" />
+            <marker date="1606060109331" expanded="true" signature="536:750" ph="{...}" />
+            <marker date="1606060109331" expanded="true" signature="659:736" ph="{...}" />
+            <marker date="1606060109331" expanded="true" signature="795:870" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Strategy/StraightStructureStrategy.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <marker date="1606060233105" expanded="true" signature="6:71" ph="..." />
+            <marker date="1606060233105" expanded="true" signature="110:758" ph="{...}" />
+            <marker date="1606060233105" expanded="true" signature="176:756" ph="{...}" />
+            <marker date="1606060233105" expanded="true" signature="261:750" ph="{...}" />
+            <marker date="1606060233105" expanded="true" signature="477:701" ph="{...}" />
+            <marker date="1606060233105" expanded="true" signature="600:687" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <folding>
+            <marker date="1606072980255" expanded="true" signature="6:58" ph="..." />
+            <marker date="1606072980255" expanded="true" signature="97:829" ph="{...}" />
+            <marker date="1606072980255" expanded="true" signature="127:827" ph="{...}" />
+            <marker date="1606072980255" expanded="true" signature="194:536" ph="{...}" />
+            <marker date="1606072980255" expanded="true" signature="300:352" ph="{...}" />
+            <marker date="1606072980255" expanded="true" signature="599:820" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/View/Company.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -810,63 +815,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs">
+    <entry file="file://$PROJECT_DIR$/BLL.Abstract/Services/IClientService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="12" column="95" selection-start-line="12" selection-start-column="95" selection-end-line="12" selection-end-column="95" />
+        <state relative-caret-position="150">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
           <folding>
-            <marker date="1606072266200" expanded="true" signature="6:135" ph="..." />
-            <marker date="1606072266200" expanded="true" signature="174:3594" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="224:3592" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="446:959" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="699:911" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="763:897" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1042:1492" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1275:1443" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1340:1429" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1558:2091" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1768:2042" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1825:2028" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="1910:2010" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="2159:2629" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="2392:2580" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="2477:2566" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="2712:2984" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="2853:2935" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="3066:3309" ph="{...}" />
-            <marker date="1606072266200" expanded="true" signature="3320:3445" ph="/* public static ClientService LoadCompany(string path) ... */" />
-            <marker date="1606072266200" expanded="true" signature="3455:3586" ph="/* public void Save(string path, ClientService clientService) ... */" />
+            <marker date="1606076844721" expanded="false" signature="6:51" ph="..." />
+            <marker date="1606076844721" expanded="true" signature="84:537" ph="{...}" />
+            <marker date="1606076844721" expanded="true" signature="122:535" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/View/Company.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/Serializer.cs">
+    <entry file="file://$PROJECT_DIR$/BLL.Implementation/Services/ClientService.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="25" column="60" lean-forward="true" selection-start-line="25" selection-start-column="60" selection-end-line="25" selection-end-column="60" />
+        <state relative-caret-position="346">
+          <caret line="65" lean-forward="true" selection-start-line="65" selection-end-line="65" />
           <folding>
-            <marker date="1606072875515" expanded="true" signature="6:128" ph="..." />
-            <marker date="1606072875515" expanded="true" signature="192:924" ph="{...}" />
-            <marker date="1606072875515" expanded="true" signature="222:922" ph="{...}" />
-            <marker date="1606072875515" expanded="true" signature="289:631" ph="{...}" />
-            <marker date="1606072875515" expanded="true" signature="395:447" ph="{...}" />
-            <marker date="1606072875515" expanded="true" signature="694:915" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="6:135" ph="..." />
+            <marker date="1606076933536" expanded="true" signature="174:3361" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="224:3359" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="447:505" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="571:1084" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="824:1036" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="888:1022" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1167:1617" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1400:1568" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1465:1554" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1681:2126" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1887:2077" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="1964:2063" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="2194:2664" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="2427:2615" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="2512:2601" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="2747:3019" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="2888:2970" ph="{...}" />
+            <marker date="1606076933536" expanded="true" signature="3101:3344" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/View/Program.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="617">
+          <caret line="107" column="20" selection-start-line="107" selection-start-column="20" selection-end-line="107" selection-end-column="20" />
           <folding>
-            <marker date="1606072875518" expanded="true" signature="6:129" ph="..." />
-            <marker date="1606072875518" expanded="true" signature="145:417" ph="{...}" />
-            <marker date="1606072875518" expanded="true" signature="165:415" ph="{...}" />
-            <marker date="1606072875518" expanded="true" signature="211:409" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="6:164" ph="..." />
+            <marker date="1606076933539" expanded="true" signature="180:4138" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="200:4136" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="246:4130" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="690:4107" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="793:1701" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="1280:1683" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="1349:1483" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="1530:1661" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="1761:2182" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="2071:2164" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="2226:2652" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="2541:2634" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="2696:2897" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="2944:3417" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="3273:3399" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="3465:3875" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="3759:3857" ph="{...}" />
+            <marker date="1606076933539" expanded="true" signature="3924:4092" ph="{...}" />
           </folding>
         </state>
       </provider>

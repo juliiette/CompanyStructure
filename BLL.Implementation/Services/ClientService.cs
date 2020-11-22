@@ -12,6 +12,11 @@ namespace BLL.Implementation.Services
         
         readonly IStructureStrategy _structureStrategy = new PositionHeightStructureStrategy();
 
+        public ClientService(DirectorModel directorModel)
+        {
+            Director = directorModel;
+        }
+        
         public EmployeeModel FindEmployeeWithMaxSalary()
         {
             List<EmployeeModel> allEmployees = _structureStrategy.BuildStructure(Director);
@@ -46,19 +51,16 @@ namespace BLL.Implementation.Services
             return resultedEmployees;
         }
 
-        public List<EmployeeModel> FindSubordinates(string name)
+        public List<WorkerModel> FindSubordinates(string name)
         {
-            List<EmployeeModel> resultedEmployees = new List<EmployeeModel>();
+            List<WorkerModel> resultedEmployees = new List<WorkerModel>();
             List<ManagerModel> allEmployees = Director.Subordinates;
 
             foreach (var employee in allEmployees)
             {
-                if (employee.Name == name)
+                if (employee.Name.ToLower() == name.ToLower())
                 {
-                    foreach (var workers in employee.Subordinates)
-                    {
-                        resultedEmployees.Add(workers);
-                    }
+                    resultedEmployees = employee.Subordinates;
                 }
             }
 

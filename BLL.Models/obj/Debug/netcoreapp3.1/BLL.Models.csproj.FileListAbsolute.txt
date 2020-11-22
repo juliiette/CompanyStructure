@@ -1,0 +1,9 @@
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/bin/Debug/netcoreapp3.1/BLL.Models.deps.json
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/bin/Debug/netcoreapp3.1/BLL.Models.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/bin/Debug/netcoreapp3.1/BLL.Models.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.csprojAssemblyReference.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.csproj.CoreCompileInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.AssemblyInfoInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.AssemblyInfo.cs
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/obj/Debug/netcoreapp3.1/BLL.Models.pdb

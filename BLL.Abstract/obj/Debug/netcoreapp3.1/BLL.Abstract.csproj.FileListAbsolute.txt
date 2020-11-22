@@ -1,0 +1,12 @@
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/bin/Debug/netcoreapp3.1/BLL.Abstract.deps.json
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/bin/Debug/netcoreapp3.1/BLL.Abstract.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/bin/Debug/netcoreapp3.1/BLL.Abstract.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/bin/Debug/netcoreapp3.1/BLL.Models.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/bin/Debug/netcoreapp3.1/BLL.Models.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.csprojAssemblyReference.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.csproj.CoreCompileInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.AssemblyInfoInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.AssemblyInfo.cs
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.csproj.CopyComplete
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/obj/Debug/netcoreapp3.1/BLL.Abstract.pdb

@@ -1,0 +1,14 @@
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Implementation.deps.json
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Implementation.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Implementation.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Abstract.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Models.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Abstract.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/bin/Debug/netcoreapp3.1/BLL.Models.pdb
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.csprojAssemblyReference.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.csproj.CoreCompileInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.AssemblyInfoInputs.cache
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.AssemblyInfo.cs
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.csproj.CopyComplete
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.dll
+/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/Debug/netcoreapp3.1/BLL.Implementation.pdb
