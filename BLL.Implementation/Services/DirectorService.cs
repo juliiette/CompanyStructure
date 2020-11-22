@@ -7,20 +7,22 @@ namespace BLL.Implementation.Services
 {
     public class DirectorService : IDirectorService
     {
-        public void CreateDirector(string name, string position, int salary)
+        public DirectorModel CreateDirector(string name, string position, int salary)
         {
             DirectorModel directorModel = new DirectorModel();
-            directorModel.Id = 1;
             directorModel.Name = name;
             directorModel.Position = position;
             directorModel.Salary = salary;
             directorModel.Subordinates = new List<ManagerModel>();
+
+            return directorModel;
         }
         
         
         public List<string> AddSubordinate(DirectorModel director, ManagerModel manager)
         {
             director.Subordinates.Add(manager);
+            manager.Supervisor = director.Name;
             
             List<string> subordinatesName = new List<string>();
 
@@ -30,6 +32,14 @@ namespace BLL.Implementation.Services
             }
 
             return subordinatesName;
+        }
+
+        public void AddSubordinatesList(DirectorModel director, List<ManagerModel> managersList)
+        {
+            foreach (var employee in managersList)
+            {
+                director.Subordinates.Add(employee);
+            }
         }
         
 

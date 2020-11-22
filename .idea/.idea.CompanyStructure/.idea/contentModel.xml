@@ -69,6 +69,21 @@
       </e>
       <e p="CompanyStructure.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="View" t="IncludeRecursive">
+        <e p="app.config" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Company.json" t="Include" />
+        <e p="Company.txt" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="View.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="View.csproj" t="IncludeRecursive" />
+      </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/resharper-host/local/Transient/ReSharperHost/v191/SolutionCaches/_CompanyStructure.-1459782714.00" t="ExcludeRecursive" />

@@ -14,6 +14,7 @@ namespace BLL.Abstract.Services
         List<EmployeeModel> FindByPosition(string position);
 
         List<string> GetEmployeesNames(List<EmployeeModel> employeeModels);
-        
+
+        WorkerModel AddEmployee(string name, string position, int salary);
     }
 }

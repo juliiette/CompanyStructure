@@ -24,6 +24,21 @@
           "bin/placeholder/BLL.Abstract.dll": {}
         }
       },
+      "BLL.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "BLL.Abstract": "1.0.0",
+          "BLL.Models": "1.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/BLL.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BLL.Implementation.dll": {}
+        }
+      },
       "BLL.Models/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
@@ -73,6 +88,11 @@
       "path": "../BLL.Abstract/BLL.Abstract.csproj",
       "msbuildProject": "../BLL.Abstract/BLL.Abstract.csproj"
     },
+    "BLL.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../BLL.Implementation/BLL.Implementation.csproj",
+      "msbuildProject": "../BLL.Implementation/BLL.Implementation.csproj"
+    },
     "BLL.Models/1.0.0": {
       "type": "project",
       "path": "../BLL.Models/BLL.Models.csproj",
@@ -82,6 +102,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "BLL.Abstract >= 1.0.0",
+      "BLL.Implementation >= 1.0.0",
       "BLL.Models >= 1.0.0",
       "Newtonsoft.Json >= 12.0.3"
     ]
@@ -92,11 +113,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/BLL.Implementation.csproj",
-      "projectName": "BLL.Implementation",
-      "projectPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/BLL.Implementation.csproj",
+      "projectUniqueName": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/View.csproj",
+      "projectName": "View",
+      "projectPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/View.csproj",
       "packagesPath": "/Users/juliastanko/.nuget/packages/",
-      "outputPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/obj/",
+      "outputPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/juliastanko/.config/NuGet/NuGet.Config"
@@ -112,6 +133,9 @@
           "projectReferences": {
             "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/BLL.Abstract.csproj": {
               "projectPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Abstract/BLL.Abstract.csproj"
+            },
+            "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/BLL.Implementation.csproj": {
+              "projectPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Implementation/BLL.Implementation.csproj"
             },
             "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/BLL.Models.csproj": {
               "projectPath": "/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/BLL.Models/BLL.Models.csproj"

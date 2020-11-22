@@ -2,10 +2,12 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp3.1</TargetFramework>
+        <OutputType>Exe</OutputType>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\BLL.Abstract\BLL.Abstract.csproj" />
+      <ProjectReference Include="..\BLL.Implementation\BLL.Implementation.csproj" />
       <ProjectReference Include="..\BLL.Models\BLL.Models.csproj" />
     </ItemGroup>
 

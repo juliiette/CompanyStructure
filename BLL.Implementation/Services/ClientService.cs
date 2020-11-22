@@ -11,7 +11,6 @@ namespace BLL.Implementation.Services
         private DirectorModel Director { get; set; }
         
         readonly IStructureStrategy _structureStrategy = new PositionHeightStructureStrategy();
-        
 
         public EmployeeModel FindEmployeeWithMaxSalary()
         {
@@ -94,15 +93,15 @@ namespace BLL.Implementation.Services
             return resultedEmployees;
         }
 
-
-        public static ClientService LoadCompany(string path)
+        public WorkerModel AddEmployee(string name, string position, int salary)
         {
-            return Serializer.Deserialize(path);
-        }
+            WorkerModel employeeModel = new WorkerModel();
+            employeeModel.Name = name;
+            employeeModel.Position = position;
+            employeeModel.Salary = salary;
 
-        public void Save(string path, ClientService clientService)
-        {
-            Serializer.Serialize(path, clientService);
+            return employeeModel;
         }
+        
     }
 }

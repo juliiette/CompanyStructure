@@ -7,14 +7,15 @@ namespace BLL.Implementation.Services
 {
     public class ManagerService : IManagerService
     {
-        public void CreateManager(int id, string name, string position, int salary)
+        public ManagerModel CreateManager(string name, string position, int salary)
         {
             ManagerModel managerModel = new ManagerModel();
-            managerModel.Id = 1;
             managerModel.Name = name;
             managerModel.Position = position;
             managerModel.Salary = salary;
             managerModel.Subordinates = new List<WorkerModel>();
+
+            return managerModel;
         }
 
         public List<string> AddSubordinate(ManagerModel manager, WorkerModel worker)
@@ -22,6 +23,7 @@ namespace BLL.Implementation.Services
             if (worker != null)
             {
                 manager.Subordinates.Add(worker);
+                worker.Supervisor = manager.Name;
             }
             
             List<string> subordinatesName = new List<string>();

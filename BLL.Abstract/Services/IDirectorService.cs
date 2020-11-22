@@ -5,11 +5,12 @@ namespace BLL.Abstract.Services
 {
     public interface IDirectorService
     {
-        void CreateDirector(string name, string position, int salary);
+        DirectorModel CreateDirector(string name, string position, int salary);
 
         List<string> AddSubordinate(DirectorModel director, ManagerModel manager);
 
         void RemoveSubordinate(DirectorModel director, string managerName);
-        
+
+        void AddSubordinatesList(DirectorModel director, List<ManagerModel> managersList);
     }
 }

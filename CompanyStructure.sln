@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Abstract", "BLL.Abstrac
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BLL.Implementation", "BLL.Implementation\BLL.Implementation.csproj", "{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "View", "View\View.csproj", "{4A902B59-9E1A-4ED2-A136-0A29149ABB40}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADF4EDBC-8887-4CC4-B400-D595FF06B5F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A902B59-9E1A-4ED2-A136-0A29149ABB40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A902B59-9E1A-4ED2-A136-0A29149ABB40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A902B59-9E1A-4ED2-A136-0A29149ABB40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A902B59-9E1A-4ED2-A136-0A29149ABB40}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

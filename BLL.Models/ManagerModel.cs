@@ -7,11 +7,8 @@ namespace BLL.Models
     public class ManagerModel : EmployeeModel
     {
         [DataMember]
-        public DirectorModel Supervisor { get; set; }
-        
-        [DataMember]
-        public string ManagerType { get; set; }
-        
+        public string Supervisor { get; set; }
+
         [DataMember]
         public List<WorkerModel> Subordinates { get; set; }
     }

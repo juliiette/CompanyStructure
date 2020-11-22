@@ -5,7 +5,7 @@ namespace BLL.Abstract.Services
 {
     public interface IManagerService
     {
-        void CreateManager(int id, string name, string position, int salary);
+        ManagerModel CreateManager(string name, string position, int salary);
 
         List<string> AddSubordinate(ManagerModel manager, WorkerModel worker);
 

@@ -1,38 +1,33 @@
 using System.IO;
-using System.Runtime.Serialization.Json;
-using System.Text.Json.Serialization;
 using System.Text.Json;
-using System.Xml;
+using BLL.Models;
 
 namespace BLL.Implementation.Services
 {
     public class Serializer
     {
-        public static void Serialize(string path, ClientService client)
+        public static void Serialize(DirectorModel director)
         {
-            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(ClientService));
-            MemoryStream stream = new MemoryStream();
+            string jsonString;
+            var options = new JsonSerializerOptions
+            {
+                WriteIndented = true
+            }; 
+            
+            jsonString = JsonSerializer.Serialize<DirectorModel>(director, options);
+            File.WriteAllText("Company.json", jsonString); 
+            
 
-            serializer.WriteObject(stream, client);
-            stream.Position = 0;
-            
-            StreamReader streamReader = new StreamReader(stream);
-            string json = streamReader.ReadToEnd();
-            
-            streamReader.Close();
-            stream.Close();
         }
-
-        public static ClientService Deserialize(string path)
+ 
+        public static DirectorModel Deserialize(string path)
         {
-            DataContractJsonSerializer serializer = new DataContractJsonSerializer(typeof(ClientService));
-            MemoryStream memoryStream = new MemoryStream();
-            
-            memoryStream.Position = 0;
+            DirectorModel director;
 
-            ClientService client = (ClientService) serializer.ReadObject(memoryStream);
-            
-            return client;
-        }
+            string jsonString = File.ReadAllText(path);
+            director = JsonSerializer.Deserialize<DirectorModel>(jsonString);
+
+            return director;
+        } 
     }
 }
