@@ -5,6 +5,6 @@ namespace BLL.Abstract
 {
     public interface IStructureStrategy
     {
-        List<EmployeeModel> BuildStructure();
+        List<EmployeeModel> BuildStructure(DirectorModel directorModel);
     }
 }

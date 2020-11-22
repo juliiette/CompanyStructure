@@ -14,6 +14,11 @@
             </e>
           </e>
         </e>
+        <e p="Services" t="Include">
+          <e p="IClientService.cs" t="Include" />
+          <e p="IDirectorService.cs" t="Include" />
+          <e p="IManagerService.cs" t="Include" />
+        </e>
         <e p="Visitor" t="Include">
           <e p="IEmployeeVisitor.cs" t="Include" />
           <e p="IVisitable.cs" t="Include" />
@@ -33,9 +38,10 @@
           </e>
         </e>
         <e p="Services" t="Include">
+          <e p="ClientService.cs" t="Include" />
           <e p="DirectorService.cs" t="Include" />
           <e p="ManagerService.cs" t="Include" />
-          <e p="WorkerService.cs" t="Include" />
+          <e p="Serializer.cs" t="Include" />
         </e>
         <e p="Strategy" t="Include">
           <e p="PositionHeightStructureStrategy.cs" t="Include" />

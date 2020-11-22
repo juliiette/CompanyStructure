@@ -6,9 +6,21 @@ namespace BLL.Implementation.Strategy
 {
     public class StraightStructureStrategy : IStructureStrategy
     {
-        public List<EmployeeModel> BuildStructure()
+        public List<EmployeeModel> BuildStructure(DirectorModel directorModel)
         {
-            throw new System.NotImplementedException();
+            List<EmployeeModel> resultedEmployees = new List<EmployeeModel>();
+            
+            resultedEmployees.Add(directorModel);
+            foreach (var manager in directorModel.Subordinates)
+            {
+                resultedEmployees.Add(manager);
+                foreach (var worker in manager.Subordinates)
+                {
+                    resultedEmployees.Add(worker);
+                }
+            }
+
+            return resultedEmployees;
         }
     }
 }

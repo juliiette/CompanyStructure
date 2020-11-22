@@ -6,9 +6,27 @@ namespace BLL.Implementation.Strategy
 {
     public class PositionHeightStructureStrategy : IStructureStrategy
     {
-        public List<EmployeeModel> BuildStructure()
+        public List<EmployeeModel> BuildStructure(DirectorModel directorModel)
         {
-            throw new System.NotImplementedException();
+            List<EmployeeModel> resultedEmployees = new List<EmployeeModel>();
+            List<WorkerModel> workers = new List<WorkerModel>();
+
+            resultedEmployees.Add(directorModel);
+            foreach (var manager in directorModel.Subordinates)
+            {
+                resultedEmployees.Add(manager);
+                foreach (var worker in manager.Subordinates)
+                {
+                    workers.Add(worker);
+                }
+            }
+
+            foreach (var worker in workers)
+            {
+                resultedEmployees.Add(worker);
+            }
+            
+            return resultedEmployees;
         }
     }
 }

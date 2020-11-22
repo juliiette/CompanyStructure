@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using BLL.Abstract.Services;
 using BLL.Models;
 
 namespace BLL.Implementation.Services
 {
-    public class ManagerService
+    public class ManagerService : IManagerService
     {
         public void CreateManager(int id, string name, string position, int salary)
         {
@@ -13,12 +14,15 @@ namespace BLL.Implementation.Services
             managerModel.Name = name;
             managerModel.Position = position;
             managerModel.Salary = salary;
-            managerModel.Subordinates = new List<EmployeeModel>();
+            managerModel.Subordinates = new List<WorkerModel>();
         }
 
-        public List<string> AddSubordinate(ManagerModel manager, EmployeeModel worker)
+        public List<string> AddSubordinate(ManagerModel manager, WorkerModel worker)
         {
-            manager.Subordinates.Add(worker);
+            if (worker != null)
+            {
+                manager.Subordinates.Add(worker);
+            }
             
             List<string> subordinatesName = new List<string>();
 

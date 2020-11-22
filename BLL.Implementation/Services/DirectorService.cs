@@ -1,10 +1,11 @@
 using System;
 using System.Collections.Generic;
+using BLL.Abstract.Services;
 using BLL.Models;
 
 namespace BLL.Implementation.Services
 {
-    public class DirectorService
+    public class DirectorService : IDirectorService
     {
         public void CreateDirector(string name, string position, int salary)
         {
