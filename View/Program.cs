@@ -11,13 +11,13 @@ namespace View
     {
         static void Main(string[] args)
         {
-            DirectorModel director = new DirectorModel();
-            director = Serializer.Deserialize("Company.json");
+            DirectorModel director = Serializer.Deserialize("Company.json");
             
             
             IClientService clientService = new ClientService(director);
-            IManagerService managerService = new ManagerService();
-            IDirectorService directorService = new DirectorService();
+            IManagerService managerService = new ManagerService(director);
+            IDirectorService directorService = new DirectorService(director);
+            
             
             Console.Write("client$ ");
 
@@ -38,12 +38,17 @@ namespace View
                     {
                         if (item == "manager")
                         {
-                            managerService.CreateManager(name, position, salary);
+                            Console.WriteLine(managerService.CreateManager(name, position, salary).Name);
                         }
 
                         if (item == "worker")
                         {
-                            clientService.AddEmployee(name, position, salary);
+                            Console.WriteLine(clientService.AddEmployee(name, position, salary).Name);
+                        }
+
+                        if (item == "director")
+                        {
+                            Console.WriteLine(directorService.CreateDirector(name, position, salary).Name);
                         }
                     }
                 }
@@ -52,22 +57,20 @@ namespace View
                 {
                     StraightStructureStrategy straightStructure = new StraightStructureStrategy();
 
-                    List<string> result =
-                        clientService.GetEmployeesNames(straightStructure.BuildStructure(director));
+                    List<EmployeeModel> result = straightStructure.BuildStructure(director);
                     foreach (var item in result)
                     {
-                        Console.WriteLine(item);
+                        Console.WriteLine(item.Name);
                     }
                 }
 
-                if (command == "position")
+                if (command == "height")
                 {
                     PositionHeightStructureStrategy positionHeight = new PositionHeightStructureStrategy();
-                    List<string> result =
-                        clientService.GetEmployeesNames(positionHeight.BuildStructure(director));
+                    List<EmployeeModel> result = positionHeight.BuildStructure(director);
                     foreach (var item in result)
                     {
-                        Console.WriteLine(item);
+                        Console.WriteLine(item.Name);
                     }
                 }
 
@@ -113,6 +116,78 @@ namespace View
                         Console.WriteLine(item.Name);
                     }
                 }
+
+                if (command == "add sub")
+                {
+                    Console.WriteLine("To manager or director? m or n");
+                    string input = Console.ReadLine();
+                    if (input == "m")
+                    {
+                        Console.Write("Daddy: ");
+                        string daddyName = Console.ReadLine();
+                        Console.Write("Child: ");
+                        string childName = Console.ReadLine();
+                        managerService.AddSubordinate(daddyName, childName);
+                    }
+
+                    if (input == "d")
+                    {
+                        Console.Write("Child: ");
+                        string childName = Console.ReadLine();
+                        directorService.AddSubordinate(director, childName);
+                    }
+                }
+
+                if (command == "remove sub")
+                {
+                    Console.WriteLine("To manager or director? m or n");
+                    string input = Console.ReadLine();
+                    if (input == "m")
+                    {
+                        Console.Write("Daddy: ");
+                        string daddyName = Console.ReadLine();
+                        Console.Write("Child: ");
+                        string childName = Console.ReadLine();
+                        managerService.RemoveSubordinate(daddyName, childName);
+                    }
+
+                    if (input == "d")
+                    {
+                        Console.Write("Child: ");
+                        string childName = Console.ReadLine();
+                        directorService.RemoveSubordinate(director, childName);
+                    }
+                }
+                
+                if (command == "exit")
+                {
+                    Console.WriteLine("Save changes? y or n");
+                    string input = Console.ReadLine();
+                    if (input == "y")
+                    {
+                        Serializer.Serialize(director);
+                        break;
+                    }
+                    else
+                    {
+                        Environment.Exit(0);
+                    }
+                }
+
+                if (command == "help")
+                {
+                    Console.Write("+    to add new worker \n straight    to build straight position structure " +
+                                  "\n height    to build position height structure" +
+                                  "\n find max    to find employee with max salary" +
+                                  "\n find bigger    find employees with bigger wage than you entered" +
+                                  "\n subordinates    to output subordinates of given employee (only manager)" +
+                                  "\n find position    finds all employes within given position" +
+                                  "\n add sub    adds subordinate to given supervisor" +
+                                  "\n remove sub    removes subordinate" +
+                                  "\n exit \n");
+                }
+                
+                Console.Write("client$ ");
 
             }
             

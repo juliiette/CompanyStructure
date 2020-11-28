@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.IO;
 using BLL.Abstract;
 using BLL.Abstract.Services;
 using BLL.Implementation.Strategy;
@@ -60,7 +61,7 @@ namespace BLL.Implementation.Services
             {
                 if (employee.Name.ToLower() == name.ToLower())
                 {
-                    resultedEmployees = employee.Subordinates;
+                    resultedEmployees = employee.WorkerSubordinates;
                 }
             }
 
@@ -71,29 +72,20 @@ namespace BLL.Implementation.Services
         {
             List<EmployeeModel> resultedEmployees = new List<EmployeeModel>();
             List<EmployeeModel> allEmployees = _structureStrategy.BuildStructure(Director);
-
+            
             foreach (var employee in allEmployees)
             {
-                if (employee.Position.ToLower() == position.ToLower())
+                if (employee.Position.ToLower() == position.ToLower() ||
+                    employee.Position.ToLower().Contains(position.ToLower()))
                 {
                     resultedEmployees.Add(employee);
                 }
+
             }
 
             return resultedEmployees;
         }
-
-        public List<string> GetEmployeesNames(List<EmployeeModel> employeeModels)
-        {
-            List<string> resultedEmployees = new List<string>();
-            
-            foreach (var employee in employeeModels)
-            {
-                resultedEmployees.Add(employee.Name);
-            }
-
-            return resultedEmployees;
-        }
+        
 
         public WorkerModel AddEmployee(string name, string position, int salary)
         {
@@ -101,8 +93,25 @@ namespace BLL.Implementation.Services
             employeeModel.Name = name;
             employeeModel.Position = position;
             employeeModel.Salary = salary;
+            Director.Workers.Add(employeeModel);
 
             return employeeModel;
+        }
+
+        public WorkerModel FindWorkerModel(string name)
+        {
+            WorkerModel resultedWorker = new WorkerModel();
+            List<EmployeeModel> allWorkers = FindByPosition("worker");
+            foreach (var worker in allWorkers)
+            {
+                if (worker.Name.ToLower() == name.ToLower())
+                {
+                    WorkerModel newWorker = AddEmployee(worker.Name, worker.Position, worker.Salary);
+                    resultedWorker = newWorker;
+                }
+            }
+            
+            return resultedWorker;
         }
         
     }

@@ -10,6 +10,7 @@ namespace BLL.Models
         public string Supervisor { get; set; }
 
         [DataMember]
-        public List<WorkerModel> Subordinates { get; set; }
+        public List<WorkerModel> WorkerSubordinates { get; set; }
+        
     }
 }

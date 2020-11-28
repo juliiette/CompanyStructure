@@ -1,4 +1,3 @@
-/Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/bin/Debug/netcoreapp3.1/View.dll.config
 /Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/bin/Debug/netcoreapp3.1/View.deps.json
 /Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/bin/Debug/netcoreapp3.1/View.dll
 /Users/juliastanko/Documents/university/trpz/trpz-2/Company/CompanyStructure/View/bin/Debug/netcoreapp3.1/View.pdb

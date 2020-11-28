@@ -12,9 +12,9 @@ namespace BLL.Abstract.Services
         List<WorkerModel> FindSubordinates(string name);
 
         List<EmployeeModel> FindByPosition(string position);
-
-        List<string> GetEmployeesNames(List<EmployeeModel> employeeModels);
-
+        
         WorkerModel AddEmployee(string name, string position, int salary);
+
+        WorkerModel FindWorkerModel(string name);
     }
 }

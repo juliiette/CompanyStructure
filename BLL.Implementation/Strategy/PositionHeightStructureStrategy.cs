@@ -15,7 +15,7 @@ namespace BLL.Implementation.Strategy
             foreach (var manager in directorModel.Subordinates)
             {
                 resultedEmployees.Add(manager);
-                foreach (var worker in manager.Subordinates)
+                foreach (var worker in manager.WorkerSubordinates)
                 {
                     workers.Add(worker);
                 }
@@ -24,6 +24,12 @@ namespace BLL.Implementation.Strategy
             foreach (var worker in workers)
             {
                 resultedEmployees.Add(worker);
+            }
+            
+            foreach (var worker in directorModel.Workers)
+            {
+                EmployeeModel newEmployee = worker;
+                resultedEmployees.Add(newEmployee);
             }
             
             return resultedEmployees;

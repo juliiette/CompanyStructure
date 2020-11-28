@@ -7,7 +7,7 @@ namespace BLL.Abstract.Services
     {
         DirectorModel CreateDirector(string name, string position, int salary);
 
-        List<string> AddSubordinate(DirectorModel director, ManagerModel manager);
+        List<string> AddSubordinate(DirectorModel director, string managerName);
 
         void RemoveSubordinate(DirectorModel director, string managerName);
 

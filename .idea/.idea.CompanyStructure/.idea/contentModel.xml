@@ -1,6 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
+    <e p="$USER_HOME$/.nuget/packages/microsoft.net.test.sdk/16.4.0/build/netcoreapp2.1" t="Include">
+      <e p="Microsoft.NET.Test.Sdk.Program.cs" t="Include" />
+    </e>
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.api.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/nunit.engine.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.dll" t="Include" />
+    <e p="$USER_HOME$/.nuget/packages/nunit3testadapter/3.15.1/build/netcoreapp2.0/NUnit3.TestAdapter.pdb" t="Include" />
     <e p="$PROJECT_DIR$" t="IncludeFlat">
       <e p="BLL.Abstract" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
@@ -48,8 +55,19 @@
           <e p="StraightStructureStrategy.cs" t="Include" />
         </e>
         <e p="Visitors" t="Include">
-          <e p="EmployeeSalaryVisitor.cs" t="Include" />
-          <e p="EmployeeSubordinatesVisitor.cs" t="Include" />
+          <e p="DirectorExtension.cs" t="Include" />
+        </e>
+      </e>
+      <e p="BLL.Implementation.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="BLL.Implementation.Tests.csproj" t="IncludeRecursive" />
+        <e p="ClientServiceTests.cs" t="Include" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="BLL.Implementation.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
         </e>
       </e>
       <e p="BLL.Models" t="IncludeRecursive">
@@ -69,8 +87,8 @@
       </e>
       <e p="CompanyStructure.sln" t="IncludeFlat" />
       <e p="packages" t="ExcludeRecursive" />
+      <e p="Tests" t="Include" />
       <e p="View" t="IncludeRecursive">
-        <e p="app.config" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Company.json" t="Include" />
         <e p="Company.txt" t="Include" />
@@ -83,6 +101,18 @@
         </e>
         <e p="Program.cs" t="Include" />
         <e p="View.csproj" t="IncludeRecursive" />
+      </e>
+      <e p="View.Tests" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive">
+          <e p="Debug" t="Include">
+            <e p="netcoreapp3.1" t="Include">
+              <e p="View.Tests.AssemblyInfo.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="ProgramTest.cs" t="Include" />
+        <e p="View.Tests.csproj" t="IncludeRecursive" />
       </e>
     </e>
     <e p="$USER_HOME$/Library/Caches/Rider2019.1/extResources" t="IncludeRecursive" />

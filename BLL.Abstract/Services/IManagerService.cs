@@ -7,8 +7,10 @@ namespace BLL.Abstract.Services
     {
         ManagerModel CreateManager(string name, string position, int salary);
 
-        List<string> AddSubordinate(ManagerModel manager, WorkerModel worker);
+        List<string> AddSubordinate(string managerName, string workerName);
 
-        void RemoveSubordinate(ManagerModel manager, string subordinateName);
+        void RemoveSubordinate(string managerName, string subordinateName);
+
+        ManagerModel FindManagerModel(string name);
     }
 }
